@@ -52,5 +52,5 @@ console.log('=== ENV LOADED ===');
 console.log('AI_PROVIDER:', env.AI_PROVIDER);
 console.log('AI_MODEL:', env.AI_MODEL);
 console.log('NEWS_PROVIDERS:', env.NEWS_PROVIDERS);
-console.log('GROQ_API_KEY starts with gsk_:', env.GROQ_API_KEY.startsWith('gsk_'));
+console.log('GROQ_API_KEY starts with gsk_:', env.GROQ_API_KEY?.startsWith('gsk_'));
 console.log('==================');
